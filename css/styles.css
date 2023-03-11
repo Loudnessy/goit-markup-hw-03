@@ -1,0 +1,187 @@
+:root {
+    --brand-color: #4d5ae5;
+    --second-color: #2E2F42;
+    --third-color: #434455;
+    --fourth-color: #404bbf;
+    --fifth-color: #FFFFFF;
+    --sixth-color: #F4F4FD;
+    --seventh-color: #E7E9FC;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+    color:var(--brand-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+.link {
+    text-decoration: none;
+}
+.accent {
+    color:var(--second-color);
+}
+.list {
+    list-style: none;
+}
+.header-nav .our-links {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--second-color);
+text-decoration: none;
+}
+
+.header-nav .our-links:is(:hover, :focus) {
+    color: var(--fourth-color);
+}
+.contacts-addresses {
+font-style: normal;
+}
+.contact {
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--third-color);
+text-decoration: none;
+}
+.contact-list .contact:is(:hover, :focus) {
+    color: var(--fourth-color);
+}
+.section-blue {
+    background: var(--second-color);
+}
+
+.main-header {
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: var(--fifth-color);
+text-align: center;
+}
+
+.order-btn {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--fifth-color);
+        background-color: var(--fourth-color);
+        cursor: pointer;
+        border-radius: 4px;
+}
+.order-btn:is(:hover, :focus) {
+    background-color: var(--sixth-color);
+    color: var(--brand-color)
+}
+.about-us .header-about-us {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-color);
+}
+.about-us .desc-about-us {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+}
+
+.our-work .header-work {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: var(--second-color);
+text-align: center;
+text-transform: capitalize;
+}
+.team {
+background-color: var(--sixth-color);
+}
+.team .team-header {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--second-color);
+}
+.team-list .header-about-us {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-color);
+}
+.team-list .proffesion {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--third-color);
+}
+.footer {
+    background-color: var(--second-color);
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+color: var(--brand-color);
+        text-decoration: none;
+        text-transform: uppercase;
+}
+.footer-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--seventh-color);
+}
+.second-accent {
+    color: var(--sixth-color);
+}
+.buttons-list .btns {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--brand-color);
+        background-color: var(--sixth-color);
+        border: 1px solid var(--seventh-color);
+        border-radius: 4px;
+        cursor: pointer;
+}
+.buttons-list .btns:is(:hover, :focus) {
+color: var(--fifth-color);
+background-color: var(--fourth-color) ;
+}
+.apps-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+.portfolio .apps-desc {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--third-color);
+}

@@ -117,7 +117,7 @@ text-decoration: none;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.visually-hidden {
+.hidden {
         position: absolute;
         width: 1px;
         height: 1px;
